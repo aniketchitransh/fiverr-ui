@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import './Navbar.scss'
 
 const Navbar = () => {
+  const [active, setActive] = useState(false)
+  
+  const isActive = () => {
+    window.scrollY > 0 ? setActive(true) : setActive(false);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", isActive);
+
+    return () => {
+      window.removeEventListener("scroll", isActive);
+    };
+  }, []);
+
+  const currentUser = {
+    id: 1,
+    username: "aniket",
+    isSeller: true
+  }
+
   return (
-    <div className='navbar'>
+    <div className={active ? "navbar active" : "navbar"}>
       <div className="container">
         <div className="logo">
           {/* <Link to="/"> */}
@@ -22,11 +42,15 @@ const Navbar = () => {
         </div>
       </div>
 
-      <hr />
-      <div className="menu">
-        <span>Test1</span>
-        <span>Test2</span>
-      </div>
+      { active && (
+        <>
+          <hr />
+          <div className="menu">
+            <span>Test1</span>
+            <span>Test2</span>
+          </div>
+        </>
+      )}
     </div>
   )
 }
