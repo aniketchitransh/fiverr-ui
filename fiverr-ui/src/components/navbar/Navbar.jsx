@@ -19,7 +19,7 @@ const Navbar = () => {
 
   const currentUser = {
     id: 1,
-    username: "aniket",
+    username: "John Deo",
     isSeller: true
   }
 
@@ -37,8 +37,28 @@ const Navbar = () => {
           <span>Explore</span>
           <span>English</span>
           <span>Sign In</span>
-          <span>Become a Seller</span>
-          <button>Join</button>
+          {! currentUser?.isSeller && <span>Become a Seller</span>}
+          {! currentUser && <button>Join</button>}
+          {currentUser && (
+            <div className="user">
+              <img
+                src="https://images.pexels.com/photos/1115697/pexels-photo-1115697.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+              />
+              <span>{ currentUser?.username }</span>
+              <div className="options">
+                {currentUser?.isSeller && (
+                  <>
+                    <span>Gigs</span>
+                    <span>Add New Gig</span>
+                  </>
+                )}
+                <span>Orders</span>
+                <span>Messages</span>
+                <span>Logout</span>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
