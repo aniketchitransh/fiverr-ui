@@ -5,7 +5,7 @@ const Slide = () => {
     return (
         <div className='slide'>
             <div className="container">
-                
+                Slide
             </div>
         </div>
     )
