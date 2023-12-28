@@ -3,7 +3,11 @@ import './Gigs.scss'
 
 const Gigs = () => {
   return (
-    <div className='gigs'>Gigs</div>
+    <div className='gigs'>
+      <div className="conatiner">
+        
+      </div>
+    </div>
   )
 }
 
