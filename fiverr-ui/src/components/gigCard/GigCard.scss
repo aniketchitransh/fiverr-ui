@@ -1,8 +1,13 @@
 .gigCard{
     width: 324px;
     height: 370px;
-    border: 1px solid lightgrey;
+    padding: 15px;
+    border: 1px solid rgb(234, 232, 232);
     margin-bottom: 25px;
+
+    &:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
 
     img{
         width: 100%;

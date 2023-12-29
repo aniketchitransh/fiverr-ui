@@ -41,16 +41,16 @@
                     &::placeholder{
                         color: grey;
                     }
-
-                    .btn{
-                        background-color: #1dbf73;
-                        color: white;
-                        font-weight: 500;
-                        border: none;
-                        cursor: pointer;
-                        padding: 5px 10px;
-                        border-radius: 5px;
-                    }
+                }
+                
+                button{
+                    background-color: #1dbf73;
+                    color: white;
+                    font-weight: 500;
+                    border: none;
+                    cursor: pointer;
+                    padding: 5px 10px;
+                    border-radius: 5px;
                 }
             }
 
@@ -92,6 +92,12 @@
                     cursor: pointer;
                 }
             }
+        }
+
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
     }
 }

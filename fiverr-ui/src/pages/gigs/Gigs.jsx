@@ -25,7 +25,7 @@ const Gigs = () => {
             <span>Budget</span>
             <input type="text" placeholder="min" />
             <input type="text" placeholder="max" />
-            <button className="btn">Apply</button>
+            <button>Apply</button>
           </div>
           <div className="right">
             <span className='sortby'>Sort By</span>
