@@ -247,7 +247,8 @@ const Gig = () => {
           </div>
         </div>
         <div className="right">
-          
+          <div className="price"></div>
+          <div className="price"></div>
         </div>
       </div>
     </div>
