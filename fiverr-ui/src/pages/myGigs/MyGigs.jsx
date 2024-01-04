@@ -4,7 +4,9 @@ import './MyGigs.scss'
 const MyGigs = () => {
   return (
     <div className='myGigs'>
-      MyGigs
+      <div className="container">
+        
+      </div>
     </div>
   )
 }
