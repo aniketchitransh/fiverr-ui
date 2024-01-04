@@ -67,32 +67,32 @@ const Gig = () => {
                   <div className="desc">USA</div>
                 </div>
                 <div className="item">
-                  <div className="title">From</div>
-                  <div className="desc">USA</div>
+                  <div className="title">Member Since</div>
+                  <div className="desc">Aug 2023</div>
                 </div>
                 <div className="item">
-                  <div className="title">From</div>
-                  <div className="desc">USA</div>
+                  <div className="title">Avg. response time</div>
+                  <div className="desc">4 hours</div>
                 </div>
                 <div className="item">
-                  <div className="title">From</div>
-                  <div className="desc">USA</div>
+                  <div className="title">Last Delivery</div>
+                  <div className="desc">1 day</div>
                 </div>
                 <div className="item">
-                  <div className="title">From</div>
-                  <div className="desc">USA</div>
+                  <div className="title">Languages</div>
+                  <div className="desc">English</div>
                 </div>
-                <hr />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis suscipit quasi eum corrupti asperiores ea!
-                  Similique odit temporibus possimus voluptas veritatis esse,
-                  iure beatae voluptate unde. Consequatur consectetur accusantium repellat!
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis suscipit quasi eum corrupti asperiores ea!
-                  Similique odit temporibus possimus voluptas veritatis esse,
-                </p>
               </div>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis suscipit quasi eum corrupti asperiores ea!
+                Similique odit temporibus possimus voluptas veritatis esse,
+                iure beatae voluptate unde. Consequatur consectetur accusantium repellat!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis suscipit quasi eum corrupti asperiores ea!
+                Similique odit temporibus possimus voluptas veritatis esse,
+              </p>
             </div>
           </div>
           <div className="reviews">
